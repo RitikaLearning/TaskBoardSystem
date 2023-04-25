@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .card-status {
+    font-size: 16px;
+    color: #fff;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-self: flex-end;
+  }
+  
+  .card-status--error {
+    background-color: red;
+  }
+  
+  .card-status--warning {
+    background-color: yellow;
+  }
+
+  
